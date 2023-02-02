@@ -21,7 +21,7 @@ function checkAnswers(){
   // first clear localStorage
     localStorage.clear();
  // return result of the quiz
-  totalEl.innerHTML = ' this is the amount of money you have won $'+nextQuestion()+' You answered '+total+' questions correctly';
+  totalEl.innerHTML = ' this is the amount of money you have won $'+nextQuestion()+' You answered '+total+' question(s) correctly';
   setBalance();
   // send a message to user
   questionEl.innerHTML = 'You are done with the quiz';
@@ -108,5 +108,5 @@ function nextQuestion(){
      newtotal += 100000; 
     } 
   }
-  return newtotal
+  return newtotal;
 }

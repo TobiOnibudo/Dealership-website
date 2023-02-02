@@ -42,7 +42,7 @@ function pasteSearch(array){
   // find the types in the array and paste them in the list 
  for (let i=0;i<array.length;i++){
    if (array[i].type.toLowerCase() == searchEl||array[i].name.toLowerCase() == searchEl||array[i].brand.toLowerCase() == searchEl){
-     listEl.innerHTML +=   '<img src="img/'+array[i].name+'.jpg"> <br> <p> The name of the car is '+ array[i].name +'. it is priced at '+array[i].price +' and it has a horsepower of '+ array[i].power + ".</p>" ;
+     listEl.innerHTML +=   '<img src="../img/'+array[i].name+'.jpg"> <br> <p> The name of the car is '+ array[i].name +'. it is priced at '+array[i].price +' and it has a horsepower of '+ array[i].power + ".</p>" ;
    }
  }
 }

@@ -7,12 +7,11 @@ let newgarage =  JSON.parse(garage);
 revealBtn.addEventListener('click',revealGarage);
 
 function revealGarage(){
-  console.log(garage);
   // show garage
   if (newgarage != null){
   garageTableEl.innerHTML = 'These are the cars you have bought from our store <br>'
   for (let i = 0;i<newgarage.length;i++){
-  garageTableEl.innerHTML += '<table><tr><td>Name:'+newgarage[i].name+'</td><td><h2> Car </h2> <img src="img/'+newgarage[i].name+'.jpg"> <p> you bougth '+newgarage[i].number+' of these at the time of your purchase</p></td></tr></table>'
+  garageTableEl.innerHTML += '<table><tr><td>Name:'+newgarage[i].name+'</td><td><h2> Car </h2> <img src="../img/'+newgarage[i].name+'.jpg"> <p> you bougth '+newgarage[i].number+' of these at the time of your purchase</p></td></tr></table>'
   }
   }else {
     garageTableEl.innerHTML = 'You currently have no car in your garage'

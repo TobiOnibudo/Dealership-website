@@ -14,7 +14,7 @@ function createList(array){
   listEl.innerHTML = 'These are the cars within the price range: <br>'
   for(let i = 0;i<array.length;i++){
   if (priceEl > array[i].price){
-  listEl.innerHTML += '<img src="img/'+array[i].name+'.jpg"> <br>'+array[i].name +'<p> This model is a '+ array[i].type +'. it is priced at '+array[i].price +' and it has a horsepower of '+ array[i].power + ".</p>" ;
+  listEl.innerHTML += '<img src="../img/'+array[i].name+'.jpg"> <br>'+array[i].name +'<p> This model is a '+ array[i].type +'. it is priced at '+array[i].price +' and it has a horsepower of '+ array[i].power + ".</p>" ;
   status = true;
   }
   }

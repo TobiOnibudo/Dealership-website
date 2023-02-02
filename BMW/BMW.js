@@ -20,5 +20,6 @@ function mainMenu(){
 
 
 function carDetails(array){
-  carinfoEl.innerHTML =   '<img src="img/'+array.name+'.jpg"> <br> <p> This model is a '+ array.type +'. It is priced at '+array.price +' and it has a horsepower of '+ array.power + ".</p>" ;
+  
+  carinfoEl.innerHTML =   '<img src="../img/'+array.name+'.jpg"> <br> <p> This model is a '+ array.type +'. It is priced at '+array.price +' and it has a horsepower of '+ array.power + ".</p>" ;
 }

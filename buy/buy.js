@@ -6,7 +6,7 @@ let purchaseEl = document.getElementById('purchase');
 let garageEl = document.getElementById('garage');
 let garageBtnEl = document.getElementById('garagebtn');
 let quizEl = document.getElementById('quiz');
-let status = false;
+let state = false;
 let carPrice = 0;
 let carObject = [];
 let carDetails;
@@ -33,14 +33,14 @@ function findCar(){
   for (let i = 0;i<cars.length;i++){
     // check if car found 
     if (carNameEl == cars[i].name.toLowerCase()){
-      status = true;
-      carInfoEl.innerHTML = '<img src="img/'+ cars[i].name+'.jpg"> <br> <p> .The price of this car is  '+ cars[i].price +' and  you currently have '+accountBalance+' in your account</p>'
+      state = true;
+      carInfoEl.innerHTML = '<img src="../img/'+ cars[i].name+'.jpg"> <br> <p> .The price of this car is  '+ cars[i].price +' and  you currently have '+accountBalance+' in your account</p>'
       createBtn('Buy')
       carPrice = cars[i].price;
       carDetails = cars[i] ;
   }
   }
-  if (status == false){
+  if (state == false){
     // if not output this 
     carInfoEl.innerHTML = 'Sorry but the name of the car entered is not within our collection.I hope you can check our brands to find a car to your liking '
   }
@@ -48,7 +48,7 @@ function findCar(){
 
 function createBtn(text){
   // set a condition for the button to be made
-  if (status = true){
+  if (state = true){
   purchaseEl.innerHTML = '';
   let btn = document.createElement('BUTTON');
   btn.innerHTML = text;
@@ -62,19 +62,19 @@ function createBtn(text){
 function purchaseCar(){
   console.log(carDetails)
  if (accountBalance >= carPrice ){
-    if (carObject == ''){ 
-   carObject.push(carDetails)
-   } else {
-     // check if carDetails is within the carObject
-   for (let i = 0;i<carObject.length;i++){
-   if (carObject[i] != carDetails){
-     // if carDetails is not within carObject at the time of purchase then add 
-    carObject.push(carDetails)
-   } else if(carObject[i] == carDetails){
-     //if carDetails is within
-     carObject[i].number++;
-   }
-   }
+        if (carObject == ''){ 
+         carObject.push(carDetails)
+         } else {
+           // check if carDetails is within the carObject
+         for (let i = 0;i<carObject.length;i++){
+         if (carObject[i] != carDetails){
+           // if carDetails is not within carObject at the time of purchase then add 
+          carObject.push(carDetails)
+         } else if(carObject[i] == carDetails){
+           //if carDetails is within
+           carObject[i].number++;
+         }
+     }
    }
     //  buy car if money available is enough 
     accountBalance -= carPrice;
