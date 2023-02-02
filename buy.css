@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Lobster&display=swap');
+html{
+ background:  url("img/Logos.jpg") no-repeat fixed center;
+ background-size: cover;
+}
+body{
+ background: rgba(255,255,255,0.7);
+  width: 60%;
+  height:80%;
+  padding: 25px 100px;
+  margin: 25px auto;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Grenze Gotisch', cursive;
+}
+input{
+background-color:black;
+color: white;
+margin-left: 20px;
+}
+.buyButton{
+background-color: lightblue;
+color:gray;
+font-family: 'Lobster', cursive;
+font-size: 15px;
+height: 20px;
+width: 40px;
+border-radius: 30px;
+padding-bottom: 20px;
+}
+button{
+  cursor: pointer;
+}
+
+
+/* attributes on buy and garage  page  */
+#garage{
+  display : none;
+  
+}
+
+#garagebtn{
+  background: lightblue;
+  color:rgb(51, 51, 51);
+  font-family: 'Lobster', cursive;
+  font-size: 13px;
+  height: 25px;
+  width: 100px;
+  border-radius: 8px;
+  margin-right:20px;
+}
+#revealBtn{
+  background: lightblue;
+  color:rgb(51, 51, 51);
+  font-family: 'Lobster', cursive;
+  font-size: 13px;
+  height: 25px;
+  width: 70px;
+  border-radius: 8px;
+  margin-right:20px;
+}
+table{
+  border:3px solid black;
+  margin: 10px auto;
+  width:50%;
+  background: rgba(255,255,255,0.7);
+}
+/* text and table spacing */
+th,td{
+  border: 2px solid black;
+  text-align:center;
+  padding:20px;
+}
+
+#nameBtn{
+  background: lightblue;
+  color:rgb(51, 51, 51);
+  font-family: 'Lobster', cursive;
+  font-size: 13px;
+  height: 22px;
+  width: 50px;
+  border-radius: 8px;
+  margin-right:20px;
+}
+
+ul {
+  overflow: hidden;
+  background-color:grey;
+  border-radius: 10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left:20px;
+  text-decoration: none;
+}

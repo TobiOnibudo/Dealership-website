@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Lobster&display=swap');
+html{
+ background:  url("img/porsche.jpg") no-repeat fixed center;
+ background-size: cover;
+}
+body{
+ background: rgba(255,255,255,0.7);
+  width: 60%;
+  height:80%;
+  padding: 25px 100px;
+  margin: 25px auto;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Grenze Gotisch', cursive;
+}
+select{
+  background-color: lightblue;
+  color:gray;
+  width: 110px;
+  border-radius: 10px;
+}
+#go{
+  background: lightblue;
+  color:rgb(51, 51, 51);
+ font-family: 'Lobster', cursive;
+  font-size: 13px;
+  height: 22px;
+  width: 54px;
+  border-radius: 8px;
+}
+
+ul {
+  overflow: hidden;
+  background-color:grey;
+  border-radius: 10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left:20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+button{
+  cursor: pointer;
+}

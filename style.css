@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Lobster&display=swap');
+html{
+ background:  url("img/Logos.jpg") no-repeat fixed center;
+ background-size: cover;
+}
+body{
+ background: rgba(255,255,255,0.7);
+  font-family: 'Grenze Gotisch', cursive;
+  width: 60%;
+  height: 80%;
+  padding: 25px 100px;
+  margin: 25px auto;
+  text-align: center;
+  border-radius: 25px;
+}
+
+button{
+  cursor: pointer;
+}
+input{
+background-color:black;
+color: white;
+}
+ul {
+  overflow: hidden;
+  background-color:grey;
+  border-radius: 10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left:20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+/* home button  */
+#home{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 10px;
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+}
+/*  buttons on the home page */
+#prices{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+#mercedes{
+  background: black;
+  color: gray;
+   font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+#search{
+  background: black;
+  color: gray;
+   font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+#quiz{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+/*  next button on quiz webpage */
+#next{
+  background: lightblue;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 10px;
+  padding: 3px 4px 8px 4px;
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+#brand{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+#garage{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+#BMW{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+#porsche{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+#chevrolet{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+#RollsRoyce{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+}
+button{
+  cursor: pointer;
+}
+
+
+ /*  buy button  */
+#buy{
+ background: lightblue;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 10px;
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+
+#submitAns{
+  background: lightblue;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 10px;
+  padding: 3px 4px 12px 4px;
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+#priceBtn{
+  background: lightblue;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 10px;
+  padding: 3px 4px 8px 4px;
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+
+#buypage{
+  background: black;
+  color: gray;
+  font-family: 'Lobster', cursive;
+  font-size: 10px;
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 200px;
+}
+#searchBtn{
+ background: lightblue;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 10px;
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+#randCar{
+ background: lightblue;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 10px;
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
